@@ -1,20 +1,44 @@
-.. styleguide documentation master file, created by
-   sphinx-quickstart on Mon Aug  6 17:23:59 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. title:: Firebase Admin SDK for PHP
 
-Welcome to styleguide's documentation!
-======================================
+##########################
+Firebase Admin SDK for PHP
+##########################
+
+Interact with `Google Firebase <https://firebase.google.com>`_ from your PHP application.
+
+.. image:: https://img.shields.io/github/license/kreait/firebase-php.svg
+   :target: https://github.com/kreait/firebase-php/blob/master/LICENSE
+   :alt: License
+.. image:: https://img.shields.io/github/stars/kreait/firebase-php.svg
+   :target: https://github.com/kreait/firebase-php/stargazers
+   :alt: Stargazers
+.. image:: https://img.shields.io/packagist/dt/kreait/firebase-php.svg
+   :target: https://packagist.org/packages/kreait/firebase-php
+   :alt: Total downloads
+
+.. note::
+    If you are interested in using the PHP Admin SDK as a client for end-user access
+    (for example, in a web application), as opposed to admin access from a
+    privileged environment (like a server), you should instead follow the
+    `instructions for setting up the client JavaScript SDK <https://firebase.google.com/docs/web/setup>`_.
+
+The source code can be found at https://github.com/kreait/firebase-php/ .
+
+A ready-to-go repository with usage examples can be found at https://github.com/jeromegamez/firebase-php-examples .
+
+**********
+User Guide
+**********
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 3
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    overview
+    setup
+    realtime-database
+    authentication
+    user-management
+    storage
+    remote-config
+    cloud-messaging
+    troubleshooting
