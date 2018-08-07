@@ -13,4 +13,4 @@ A ready-to-go repository with usage examples can be found at https://github.com/
 .. toctree::
     :maxdepth: 3
 
-    vaiables
+    variables
