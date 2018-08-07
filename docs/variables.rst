@@ -2,26 +2,26 @@
 variables
 #########
 
-Общие правила:
+Obshchie pravila:
 
-#. Имя переменной должно полно и точно описывать сущность, представляемую этой переменной.
+#. Imya peremennoj dolzhno polno i tochno opisyvat' sushchnost', predstavlyaemuyu ehtoj peremennoj.
 
-#. Оптимальная длина имени 10-16 символов.
+#. Optimal'naya dlina imeni 10-16 simvolov.
 
-#. Использование переменных с короткими именами (например) должно ограничиваться несколькими строками кода.
+#. Ispol'zovanie peremennyh s korotkimi imenami (naprimer) dolzhno ogranichivat'sya neskol'kimi strokami koda.
 
-#. Дополняя имя переменной спецификаторами и т.п., указывайте его в конце имени. Старайтесь не использовать спецификатор , т.к. в одних случаях он может обозначать общее число, а в других - индекс.
+#. Dopolnyaya imya peremennoj specifikatorami i t.p., ukazyvajte ego v konce imeni. Starajtes' ne ispol'zovat' specifikator , t.k. v odnih sluchayah on mozhet oboznachat' obshchee chislo, a v drugih - indeks.
 
-#. Используйте правильные антонимы
+#. Ispol'zujte pravil'nye antonimy
 
-#. Старайтесь не присваивать переменным статуса имена .
+#. Starajtes' ne prisvaivat' peremennym statusa imena .
 
-Циклы:
+Cikly:
 
-#. Для индексов циклов используйте имена и
+#. Dlya indeksov ciklov ispol'zujte imena i
 
-#. Используйте более выразительное имя если:
+#. Ispol'zujte bolee vyrazitel'noe imya esli:
 
-- цикл длиннее нескольких строк;
-- цикл имеет несколько уровней вложенности;
-- переменную предполагается использовать вне цикла.
+- cikl dlinnee neskol'kih strok;
+- cikl imeet neskol'ko urovnej vlozhennosti;
+- peremennuyu predpolagaetsya ispol'zovat' vne cikla.
